@@ -44,7 +44,7 @@ main{
         "container_1"
     ;
     overflow-y: scroll;
-    
+    gap: 1em;
 }
 
 .container_1{

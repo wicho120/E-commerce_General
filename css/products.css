@@ -8,6 +8,22 @@ body{
     margin: 1em;
 }
 
+header{
+    width: 90vw;
+}
+
+.header_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_container button{
+    width: 2em;
+    height: 2em;
+}
+
 .menu_products{
     background: var(--color-boxes);
     display: grid;
