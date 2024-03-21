@@ -32,7 +32,7 @@ main{
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas: 
         "products_list"
-        "product_2"
+        "buy_section"
     ;
 }
 
@@ -75,4 +75,28 @@ main{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+.boton_buy{
+    margin-top: 8em;
+    grid-area: buy_section;
+    background: seagreen;
+    border-radius: 1em;
+}
+
+.container_2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container_2_text{
+    text-align: center;
+}
+
+.container_2_text p{
+    margin: 0;
+}
+
+.container_2_text button{
+    background: orange;
 }

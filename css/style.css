@@ -28,7 +28,7 @@ header{
 
 main{
     display: grid;
-    grid-template-rows: 1fr 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas: 
         "product_1"
@@ -178,6 +178,20 @@ main{
 
 .product_1_information p{
     font-size: 0.8em;
+}
+
+.product_1_information button{
+    width: 7em;
+    height: 3em;
+    border-radius: 1em;
+    background: seagreen;
+}
+
+.product_2_information button{
+    width: 7em;
+    height: 3em;
+    border-radius: 1em;
+    background: seagreen;
 }
 
 
